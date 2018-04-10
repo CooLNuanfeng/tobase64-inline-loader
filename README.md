@@ -1,13 +1,15 @@
 # tobase64-inline-loader
 
 webpack loader to image | svg | ttf ... to change base64
+webpack loader 用来将 图片 svg 字体等文件  转换 为base64 格式
 
-## install
+## install 安装
 
     npm install tobase64-inline-loader -D
 
 
-## Usage
+
+## Usage 使用
 
 ```
     module: {
@@ -34,9 +36,13 @@ webpack loader to image | svg | ttf ... to change base64
     }
 ```
 
-## Options
+## Options 配置
 
 * `limit` — The limit can be specified with a query or options parameter. (Defaults to set 10kb).<br />
 If the file is greater than the limit (in bytes) the file-loader is used and no change base64
 
-* other Options like [file-loader](https://github.com/webpack-contrib/file-loader)
+limit  - 限制转换文件的大小，默认10kb以下进行转换
+
+* other Options like  [file-loader](https://github.com/webpack-contrib/file-loader)
+
+其他配置限于未转化base64的，参考 file-loader
