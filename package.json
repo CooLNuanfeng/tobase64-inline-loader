@@ -1,0 +1,31 @@
+{
+  "name": "tobase64-inline-loader",
+  "version": "1.0.0",
+  "description": "webpack loader some file to base64",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nuanfeng",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CooLNuanfeng/tobase64-inline-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "file",
+    "to",
+    "base64"
+  ],
+  "bugs": {
+    "url": "https://github.com/CooLNuanfeng/tobase64-inline-loader/issues"
+  },
+  "homepage": "https://github.com/CooLNuanfeng/tobase64-inline-loader#readme",
+  "dependencies": {
+    "file-loader": "^1.1.11",
+    "loader-utils": "^1.1.0",
+    "mime-types": "^2.1.18"
+  }
+}
