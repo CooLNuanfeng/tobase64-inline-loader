@@ -1,6 +1,6 @@
 # tobase64-inline-loader
 
-webpack loader to image | svg | ttf ... to change base64
+webpack loader to image | svg | ttf ... to change base64 <br/>
 webpack loader 用来将 图片 svg 字体等文件  转换 为base64 格式
 
 ## install 安装
